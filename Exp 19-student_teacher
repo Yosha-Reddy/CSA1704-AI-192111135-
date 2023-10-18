@@ -1,0 +1,5 @@
+takes(yosha,his200).
+takes(ahsoy,cs209).
+takes(siree,evs200).
+takes(chinnu,os207).
+classmates(X,Y):-takes(X,Z),takes(Y,Z).
